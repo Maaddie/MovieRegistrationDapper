@@ -1,0 +1,31 @@
+﻿<h2>Registration Form</h2>
+
+    <form action="Registration/Result" >
+          <p>Movie ID</p>
+          <input type="number" name ="ID"/>
+
+        <p>Movie Title</p>
+        <input type="text" name="Title"/>
+
+        <p>Movie Genre</p>
+        <input type="text" name="Genre"/>
+
+        <p>Movie Year</p>
+        <input type="number" name="Year"/>
+
+        <p>Movie Runtime</p>
+        <input type="number" name="Runtime"/>
+
+        <input type="submit"/>
+
+    </form>
+
+@*@model Movie
+<p> ID: @Model.ID</p>
+<p>Title: @Model.Title</p>
+<p>Genre: @Model.Genre</p>
+<p>Year: @Model.Year</p>
+<p>Runtime: @Model.Runtime</p>*@
+
+
+
